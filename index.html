@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel();
+    });
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="UTF-8">
+    <title>BookBarn</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @media only screen and (max-width: 767px) {
+            .box {
+                width: 90%; /* Adjust box width for smaller screens */
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .box {
+                width: 30%; /* Adjust box width for larger screens */
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+
+
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .box img {
+            max-width: 100%; /* Ensure images are responsive */
+            height: auto; /* Maintain image aspect ratio */
+        }
+
+        .box {
+            width: 90%;
+            margin: 10px auto; /* Center the box */
+            text-align: center;
+            padding: 20px;
+            background-color: transparent; /* Remove background color */
+            border: none; /* Remove border */
+        }
+
+        img {
+    max-width: 100%;
+    height: auto;
+}
+
+        p {
+            margin-top: 10px;
+        }
+
+        .content {
+            padding: 50px; /* Adjust padding for mobile */
+        }
+        .center {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 50px; /* Adjust margin for mobile */
+            text-align: center;
+        }
+        @media only screen and (min-width: 768px) {
+            .box {
+                width: 30%; /* Adjust box width for larger screens */
+                padding: 20px;
+            }
+
+            .box img {
+                max-width: 100%; /* Ensure images are responsive */
+                height: auto; /* Maintain image aspect ratio */
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .box {
+                width: 30%; /* Restore original box width for larger screens */
+                padding: 100px;
+            }
+
+            .box img {
+                padding: 10px;
+            }
+
+            .content {
+                padding: 150px;
+            }
+
+            footer {
+                margin-top: 150px;
+            }
+        }
+        
+    </style>
+    <style>
+        
+        .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">
+                <img src="C:\Users\Matth\Pictures\logo.jpg.png" alt="BookBarn Logo">
+            </a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="center">
+            <h1>Welcome to BookBarn</h1>
+            <p>Our mission is to provide a diverse range of books at affordable prices, with a focus on fostering a love for reading.</p>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="C:\Users\Matth\Pictures\Screenshot 2024-08-20 114345.png" alt="Harry Potter">
+                <p>Harry Potter - A gripping tale of suspense and intrigue. $14.99</p>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Matth\Pictures\Screenshot 2024-08-20 114408.png" alt="dune">
+                <p>Dune - Explore new worlds and futuristic adventures. $24.99</p>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Matth\Pictures\Screenshot 2024-08-20 114433.png" alt="game of thrones">
+                <p>Game of Thrones - A Song of Ice and Fire. $29.99</p>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="C:\Users\Matth\Pictures\Screenshot_2024-08-20_140108-removebg-preview.png" alt="Image 1">
+        <img src="C:\Users\Matth\Pictures\Screenshot_2024-08-20_140312-removebg-preview.png" alt="Image 2">
+        <img src="C:\Users\Matth\Pictures\Screenshot_2024-08-20_140415-removebg-preview.png" alt="Image 3">
+    </div>
+
+   
+    <footer style="color: white;"> <!-- Set the color of the footer text to white -->
+        &copy; 2023 BookBarn. All Rights Reserved.
+        <div class="social-links">
+            <a href="#"><img src="C:\Users\Matth\Pictures\Screenshot 2024-08-20 121754.png" alt="Facebook"></a>
+            <a href="#"><img src="C:\Users\Matth\Pictures\Screenshot 2024-08-20 122053.png" alt="Twitter"></a>
+            <a href="#"><img src="C:\Users\Matth\Pictures\Screenshot 2024-08-20 120856.png" alt="Instagram"></a>
+        </div>
+
+
+</footer>
+
+    
+</body>
+
+</html>
